@@ -29,8 +29,8 @@ function updateScore(player, opponent) {
       player.button.disabled = true;
       opponent.button.disabled = true;
     }
-    player.display.textContent = player.score;
   }
+  player.display.textContent = player.score;
 }
 
 playerOne.button.addEventListener("click", function () {
